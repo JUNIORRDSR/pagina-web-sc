@@ -1,0 +1,31 @@
+.navbar{
+    width: auto;
+    height: 124px;
+        background: #F5F1E6;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 126px;
+    height: 90px;
+}
+.img-logo{
+    width: 126px;
+    height: 90px;
+}
+.secciones{
+    width: 330px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secciones-value{
+    width: 67px;
+    height: 27px;
+    background-color: #D9D9D9;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
