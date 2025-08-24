@@ -1,9 +1,16 @@
+body{
+    font-family:"Balsamiq Sans", sans-serif;
+    color: #333333;
+    display: block;
+}
+/*Barra de navegacion*/
 .navbar{
     width: auto;
     height: 124px;
-        background: #F5F1E6;
+    background: #F5F1E6;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .logo{
     width: 126px;
@@ -28,4 +35,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10%;
+}
+/*Hero Seccion*/
+.hero{
+    padding: 25px;
+    padding-top: 55px;
+}
+.hero-content{
+    width: auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+.text-presentation{
+    width: 35%;
+    height: auto; 
+}
+.text-presentation p{
+    font-size: large;
+}
+.text-presentation h1{
+    font-size: 50px;
+    font-weight: 200;
+    padding: auto;
+}
+.img-hero{
+    width: auto;
+    height: auto;
+    flex: 1;
+    padding: 5%;
+    justify-self: center;
+    align-self: center;
 }
