@@ -44,6 +44,10 @@ body {
     border-radius: 10%;
 }
 
+.secciones-responsive {
+    display: none;
+}
+
 /*Hero Seccion*/
 .hero {
     padding: 25px;
@@ -103,9 +107,11 @@ body {
         text-align: center;
         height: auto;
     }
-    .hero{
+
+    .hero {
         padding: 10px;
     }
+
     .text-presentation {
         justify-content: center;
         width: auto;
@@ -119,6 +125,23 @@ body {
         object-fit: cover
     }
 }
-@media (max-width: 350){
-    
+
+@media (max-width: 350px) {
+    .secciones {
+        display: none;
+    }
+
+    .text-presentation h1 {
+        font-size: xx-large;
+        font-weight: 200;
+    }
+    .secciones-responsive .secciones-value{
+        display: none;
+    }
+    .secciones-responsive{
+        display: block;
+        width: 30%;
+        font-size: xx-large;
+        text-align: center;
+    }
 }
