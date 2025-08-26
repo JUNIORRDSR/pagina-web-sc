@@ -16,7 +16,7 @@ body {
     flex: 1;
 }
 
-.contenedor-logo{
+.contenedor-logo {
     width: auto;
     height: auto;
     display: flex;
@@ -24,9 +24,11 @@ body {
     align-items: center;
     gap: 2px;
 }
-.contenedor-logo p{
+
+.contenedor-logo p {
     font-size: 1.5rem;
 }
+
 .logo {
     width: 126px;
     height: 90px;
@@ -119,14 +121,14 @@ body {
     border-radius: 10%;
 }
 
-.carrusel-hero video{
+.carrusel-hero video {
     width: 100%;
     height: 100%;
     max-width: 500px;
     min-width: 150px;
     object-fit: cover;
     border-radius: 10%;
-    
+
 }
 
 @media (max-width: 800px) {
@@ -148,7 +150,7 @@ body {
         height: auto;
     }
 
-    .text-presentation p{
+    .text-presentation p {
         text-align: center;
     }
 
@@ -188,18 +190,21 @@ body {
         color: #333333;
         font-size: 1.1rem;
     }
-    .contenedor-logo{
+
+    .contenedor-logo {
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
     }
-    .text-logo p{
+
+    .text-logo p {
         width: auto;
         height: auto;
         margin: 0%;
     }
-    .navbar{
+
+    .navbar {
         width: auto;
         height: auto;
     }
@@ -377,18 +382,20 @@ body {
     .extras {
         width: 100%;
         height: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .contenedor-extras {
         width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        max-width: 60%;
+        min-width: 250px;
         gap: 10px;
         overflow: hidden;
-        flex-wrap: wrap;
     }
 
     .img-extras img {
@@ -446,7 +453,7 @@ body {
     align-items: center;
 }
 
-.footer-abajo a{
+.footer-abajo a {
     text-decoration: none;
     color: #333333;
 }
